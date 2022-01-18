@@ -12,12 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2022_01_13_194521) do
 
-  create_table "task_lists", charset: "utf8mb4", force: :cascade do |t|
-    t.string "content"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "tasks", charset: "utf8mb4", force: :cascade do |t|
     t.string "content"
     t.datetime "created_at", precision: 6, null: false
